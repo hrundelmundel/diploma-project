@@ -1,0 +1,42 @@
+@import '/css/reset.css';
+:root{
+    --nav-bg:#012d63;
+}
+
+.page-wraper {
+}
+.nav-wraper {
+    background-color: var(--nav-bg);
+}
+.container {
+    margin-left: 167px;
+    margin-right: 167px;
+}
+.nv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+}
+.nav-items-li {
+    display: flex;
+    align-items: center;
+}
+.header-wraper {
+    background: url(/img/background-header.png) no-repeat center/cover; 
+    padding-top: 94px;
+    padding-bottom: 183px;
+}
+.header {
+}
+.header-logo {
+}
+.header-title {
+}
+.header-subtitle {
+}
+.header-desk {
+}
+.header-buy {
+}
