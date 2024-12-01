@@ -1,6 +1,7 @@
 @import '/css/reset.css';
 :root{
     --nav-bg:#012d63;
+    --nav-light:#C7C7C7;
 }
 
 .page-wraper {
@@ -20,11 +21,25 @@
 }
 .nav-logo {
 }
-.nav-items-li {
+.nav-items{
     display: flex;
     align-items: center;
     
+}
+.nav-items-li {
+    margin-right: 30px;
     cursor: pointer;
+    color: var(--nav-light);
+    transition: all .7s;
+}
+.nav-items-li:nth-child(6){
+    margin-right: 72px;
+}
+.nav-items-li:nth-child(7){
+    margin-right: 8px;
+}
+.nav-items-li:hover{
+    color: white;
 }
 .header-wraper {
     background: url(/img/background-header.png) no-repeat center/cover; 
