@@ -1,9 +1,12 @@
 @import '/css/reset.css';
+@import '/css/fonts.css';
 :root{
     --nav-bg:#012d63;
     --nav-light:#C7C7C7;
 }
-
+*{
+    font-family: "Playfair Display", serif;
+}
 .page-wraper {
     
 }
@@ -14,7 +17,7 @@
     margin-left: 167px;
     margin-right: 167px;
 }
-.nv {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +27,8 @@
 .nav-items{
     display: flex;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
     
 }
 .nav-items-li {
@@ -31,6 +36,7 @@
     cursor: pointer;
     color: var(--nav-light);
     transition: all .7s;
+    font-family: "Roboto", sans-serif;
 }
 .nav-items-li:nth-child(6){
     margin-right: 72px;
@@ -53,9 +59,11 @@
 }
 .header-title {
     font-size: 152px;
+    margin-left: -10px;
 }
 .header-subtitle {
-    font-size: 80px;
+    font-size: 72px;
+    margin-top: -40px;
 }
 .header-desk {
     width: 430px;
