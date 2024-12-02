@@ -159,15 +159,61 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
 
 }
 
-.reviwes-card-item-desc {
-}
 .reviwes-card-item-date {
+    font-family: "Roboto", sans-serif;
+    color: var(--nav-light);
+    font-size: 13px;
+    
+
+}
+.reviwes-card-item-desc{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
 }
 .reviwes-card-item-container {
+    display: flex;
+    align-items: center;
+    
 }
 .reviwes-card-item-avatar {
 }
 .reviwes-card-item-name {
+    font-family: "Roboto", sans-serif;
+    
 }
 .item-name-year {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.order-wraper {
+    background: url(/img/background-order.png) no-repeat center/cover;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    
+
+}
+.container {
+}
+.order {
+    
+    
+   
+}
+.order-email {
+}
+.order-country {
+}
+.order-city {
+}
+.order-addres {
+}
+.order-buy-nike {
+    cursor: pointer;
+    background-color: #8E32C6;
+    margin-top: 41px;
+    width: 248px;
+    height: 68px;
+    font-size: 25px;
+    border-radius: 15px;
 }
