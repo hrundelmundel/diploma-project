@@ -266,3 +266,43 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
     font-size: 25px;
     border-radius: 15px;
 }
+.fotter-wraper {
+    background-color: #021635;
+}
+.container {
+}
+.footer {
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left {
+    margin-top: 35px;
+}
+.footer-top-left-question {
+    margin-top: 10px;
+}
+.footer-top-right {
+    margin-top: 35px;
+}
+.footer-top-right-answer {
+    margin-top: 10px;
+    text-decoration: underline;
+    text-align: right;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-left {
+    margin-top: 44px ;
+    margin-bottom: 50px;
+}
+.footer-bottom-left-info {
+}
+.footer-bottom-logo {
+    width: 120px;
+    height: 96px;
+
+}
