@@ -208,6 +208,12 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
 .container {
 }
 .order {
+    
+}
+.order-form > input{
+    padding: 12px 0px 12px 24px;
+    border: none;
+    font-size: 28px;
 }
 .order-title{
     text-align: center;
@@ -218,32 +224,39 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
 .order-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 .order-email {
-    margin-left: 375px;
-    margin-right: 375px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: 33px;
+    width: 670px;
+    
 
 }
+.order-form::after{
+    position: absolute;
+    content: "Confirm";
+    color: #8D8D8D;
+    font-size: 28px;
+    right: 180px;
+    top: 45px;
+}
 .order-country {
-    margin-left: 430px;
-    margin-right: 430px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: 19px;
     margin-bottom: 19px;
+    width: 560px;
 }
 .order-city {
-    margin-left: 430px;
-    margin-right: 430px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 19px;
+    width: 560px;
 }
 .order-addres {
-    margin-left: 430px;
-    margin-right: 430px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 19px;
+    width: 560px;
 }
 .order-buy-nike {
     cursor: pointer;
