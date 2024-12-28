@@ -239,7 +239,7 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
     content: "Confirm";
     color: #8D8D8D;
     font-size: 28px;
-    right: 180px;
+    right: 330px;
     top: 45px;
 }
 .order-country {
@@ -299,10 +299,24 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
     margin-top: 44px ;
     margin-bottom: 50px;
 }
+.footer{
+    position: relative;
+}
+.footer::after{
+    position: absolute;
+    content: "";
+    background-color: #8D8D8D;
+    font-size: 28px;
+    bottom: 115px;
+    height: 1px;
+    width: 100%;
+}
+
 .footer-bottom-left-info {
 }
 .footer-bottom-logo {
     width: 120px;
     height: 96px;
+    margin-top: 19px;
 
 }
