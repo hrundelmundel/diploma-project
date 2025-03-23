@@ -1,0 +1,368 @@
+@import '/css/reset.css';
+@import '/css/fonts.css';
+
+:root {
+    --nav-bg: #012d63;
+    --nav-light: #C7C7C7;
+}
+
+* {
+    font-family: "Playfair Display", serif;
+}
+
+.page-wraper {}
+
+.nav-wraper {
+    background-color: var(--nav-bg);
+}
+
+.container {
+    margin-left: 167px;
+    margin-right: 167px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-items {
+        display: flex;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    &-items-li {
+        margin-right: 30px;
+        cursor: pointer;
+        color: var(--nav-light);
+        transition: all .7s;
+        font-family: "Roboto", sans-serif;
+
+        &:nth-child(6) {
+            margin-right: 72px;
+        }
+
+        &:nth-child(7) {
+            margin-right: 8px;
+
+            &:hover {
+                color: white;
+            }
+
+        }
+    }
+
+
+}
+
+.nav-logo {}
+
+
+
+
+
+
+.header {
+    &-wraper {
+        background: url(/img/background-header.png) no-repeat center/cover;
+        padding-top: 94px;
+        padding-bottom: 183px;
+    }
+
+    &-title {
+        font-size: 152px;
+        margin-left: -10px;
+    }
+
+    &-subtitle {
+        font-size: 72px;
+        margin-top: -40px;
+    }
+
+    &-desk {
+        width: 430px;
+    }
+
+    &-buy {
+        padding: 15px 30px;
+        background-color: #8E32C6;
+        border-radius: 5px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin-top: 41px;
+        width: 254px;
+        height: 67px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+}
+
+.header-logo {}
+
+
+
+
+
+.container {}
+
+.main {
+    padding: 25px 50px;
+    display: flex;
+    border: 5px solid #8E32C6;
+    justify-content: space-between;
+
+    &-card {
+        &-name {
+            font-size: 36px;
+            text-align: center;
+        }
+        &:nth-child(2) {
+            position: relative;
+        }
+        &:nth-child(2)::before {
+            position: absolute;
+            content: '';
+            height: 346px;
+            width: 1px;
+            background: white;
+            left: -60px;
+        }
+        &:nth-child(2)::before {
+            position: absolute;
+            content: '';
+            height: 346px;
+            width: 1px;
+            background: white;
+            left: -60px;
+        }
+        &:nth-child(2)::after {
+            position: absolute;
+            content: '';
+            height: 346px;
+            width: 1px;
+            background: white;
+            top: 0px;
+            right: -80px;
+        }
+    }
+
+    &-wraper {
+        background: url(/img/background-main.png) no-repeat center/cover;
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+}
+
+.main-card {}
+
+
+
+
+
+
+
+
+
+.main-card-photo {}
+
+
+
+.container {}
+
+.reviwes {
+    &-wraper {
+        background: url(/img/background-reviwes.png) no-repeat center/cover;
+        padding-top: 25px;
+        padding-bottom: 110px;
+    }
+    &-title{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 200;
+        margin-bottom: 24px;
+    }
+    &-cards{
+        display: flex;
+        justify-content: center;
+        column-gap: 93px;
+        &-item{
+            width: 255px;
+            height: 292px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 49px 9px 29px 18px;
+            border-radius: 15px;
+            &:nth-child(1){
+                box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+                background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+
+            }
+            &:nth-child(2){
+                box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+
+            }
+            &:nth-child(3){
+                box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+                background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+            }
+            &-date{
+                font-family: "Roboto", sans-serif;
+                color: var(--nav-light);
+                font-size: 13px;
+                margin-top: -30px;
+            }
+            &-desc{
+                font-size: 24px;
+                font-family: "Roboto", sans-serif;
+            }
+            &-container{
+                display: flex;
+                align-items: center;
+            }
+            &-avatar{
+                margin-right: 5px;
+            }
+            &-name{
+                font-family: "Roboto", sans-serif;
+                &-year{
+                    font-family: "Roboto", sans-serif;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.container {}
+
+.order {
+    &-wraper{
+        background: url(/img/background-order.png) no-repeat center/cover;
+        padding-top: 25px;
+        padding-bottom: 110px;
+    }
+    &-form>input{
+        padding: 12px 0px 12px 24px;
+        border: none;
+        font-size: 28px;
+    }
+    &-title{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 200;
+        margin-bottom: 24px;
+    }
+    &-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        &-::after{
+            position: absolute;
+            content: "Confirm";
+            color: #8D8D8D;
+            font-size: 28px;
+            right: 330px;
+            top: 45px;
+        }
+    }
+    &-email{
+        border-radius: 50px;
+        margin-top: 33px;
+        width: 670px;
+    }
+    &-country{
+        border-radius: 50px;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        width: 560px;
+    }
+    &-city{
+        border-radius: 50px;
+    margin-bottom: 19px;
+    width: 560px;
+    }
+    &-addres{
+        border-radius: 50px;
+        margin-bottom: 19px;
+        width: 560px;
+    }
+    &-buy-nike{
+        cursor: pointer;
+    background-color: #8E32C6;
+    width: 248px;
+    height: 68px;
+    font-size: 25px;
+    border-radius: 15px;
+    }
+
+}
+
+
+
+
+.container {}
+
+.footer {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        background-color: #8D8D8D;
+        font-size: 28px;
+        bottom: 115px;
+        height: 1px;
+        width: 100%;
+
+    }
+    &-wraper{
+        background-color: #021635;
+    }
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            margin-top: 35px;
+            &-question{
+                margin-top: 10px;
+            }
+            &-right{
+                margin-top: 35px;
+                &-answer{
+                    margin-top: 10px;
+    text-decoration: underline;
+    text-align: right; 
+                }
+            }
+        }
+        &-bottom{
+            display: flex;
+            justify-content: space-between;
+            &-left{
+                margin-top: 44px;
+                margin-bottom: 50px; 
+            }
+            &-logo{
+                width: 120px;
+                height: 96px;
+                margin-top: 19px;
+            }
+        }
+    }
+}
+
+
+
+.footer-bottom-left-info {}
+
